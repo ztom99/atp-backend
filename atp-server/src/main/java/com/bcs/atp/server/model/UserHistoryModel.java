@@ -16,7 +16,7 @@ import java.util.Date;
  * 用户历史表
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Builder

@@ -12,7 +12,7 @@ import java.util.List;
  * 账户表 服务类
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 public interface AccountService extends IService<AccountModel> {

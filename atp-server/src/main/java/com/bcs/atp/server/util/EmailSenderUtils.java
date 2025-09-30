@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 /**
  * 发送电子邮件工具类
  *
- * @author scott
+ * @author tom
  * @since 2024/04/02
  */
 @Component

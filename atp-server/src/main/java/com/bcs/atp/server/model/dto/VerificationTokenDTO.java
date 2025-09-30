@@ -14,7 +14,7 @@ import java.util.Date;
  * 验证码表 DTO
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Getter

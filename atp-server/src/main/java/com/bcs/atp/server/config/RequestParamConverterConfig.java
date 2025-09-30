@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * 请求参数转换为枚举类型的配置
  *
- * @author Scott
+ * @author tom
  * @since 2024/03/21
  */
 @Configuration

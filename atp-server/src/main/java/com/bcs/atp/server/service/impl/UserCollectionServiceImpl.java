@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
  * 用户集合表 服务实现类
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Service

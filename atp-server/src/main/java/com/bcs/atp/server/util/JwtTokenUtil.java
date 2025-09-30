@@ -23,7 +23,7 @@ import java.util.Date;
  * HMACSHA512(base64UrlEncode(header) + "." +base64UrlEncode(payload),secret)
  * </pre>
  *
- * @author scott
+ * @author tom
  * @since 2024/03/19
  */
 @Slf4j

@@ -14,7 +14,7 @@ import java.io.Serializable;
  * 用户环境表 DTO
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Getter

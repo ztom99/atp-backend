@@ -18,7 +18,7 @@ import java.io.IOException;
 /**
  * 动态权限过滤器，用于实现基于路径的动态权限过滤
  *
- * @author scott
+ * @author tom
  * @since 2024/03/29
  */
 @Component

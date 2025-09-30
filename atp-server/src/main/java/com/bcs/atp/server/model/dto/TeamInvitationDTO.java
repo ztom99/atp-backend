@@ -13,7 +13,7 @@ import java.io.Serializable;
  * 团队邀请表 DTO
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Getter

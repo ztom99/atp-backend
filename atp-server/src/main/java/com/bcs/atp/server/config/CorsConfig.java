@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * 全局跨域配置
  *
- * @author Scott
+ * @author tom
  * @since 2024/03/21
  */
 @Configuration

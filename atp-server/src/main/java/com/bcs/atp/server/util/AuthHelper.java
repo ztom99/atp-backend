@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 /**
  * 用户登录授权工具类
  *
- * @author Scott
+ * @author tom
  * @since 2024/03/15
  */
 public class AuthHelper {

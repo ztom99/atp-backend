@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
  * 基础配置表 Mapper 接口
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Repository

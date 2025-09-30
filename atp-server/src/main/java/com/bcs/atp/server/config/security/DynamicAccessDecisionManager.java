@@ -18,7 +18,7 @@ import java.util.Iterator;
 /**
  * 动态权限决策管理器，用于判断用户是否有访问权限
  *
- * @author scott
+ * @author tom
  * @since 2024/03/29
  */
 @Slf4j

@@ -2,7 +2,7 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
-    <changeSet id="initialize_001_1" author="scott">
+    <changeSet id="initialize_001_1" author="tom">
         <tagDatabase tag="version_initialize" />
     </changeSet>
 </databaseChangeLog>

@@ -9,7 +9,7 @@ ext {
 docker {
     springBootApplication {
         baseImage = "openjdk:8-alpine"
-        maintainer = "Scott Lau 'exceedego@126.com'"
+        maintainer = "toÏm 'zhoutao10518@126.com'"
         images = ["${project.group}/${project.name}:${project.version}", "${project.group}/${project.name}:latest"]
         jvmArgs = [
             "-Xms${minMem}"

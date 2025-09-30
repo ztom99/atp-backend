@@ -20,7 +20,7 @@ import java.util.List;
  * 受邀用户表 服务实现类
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Service

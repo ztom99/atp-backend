@@ -6,7 +6,7 @@ import lombok.*;
 /**
  * 用户登录返回参数
  *
- * @author Scott
+ * @author tom
  * @since 2024/03/15
  */
 @Builder

@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 用于配置白名单资源路径
  *
- * @author scott
+ * @author tom
  * @since 2024/03/28
  */
 @Getter

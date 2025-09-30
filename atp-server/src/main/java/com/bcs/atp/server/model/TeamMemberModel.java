@@ -13,7 +13,7 @@ import lombok.experimental.Accessors;
  * 团队成员表
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Builder

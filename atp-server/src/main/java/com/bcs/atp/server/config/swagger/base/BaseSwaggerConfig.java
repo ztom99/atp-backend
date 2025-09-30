@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 /**
  * Swagger基础配置
  *
- * @author scott
+ * @author tom
  * @since 2024/03/19
  */
 public abstract class BaseSwaggerConfig {

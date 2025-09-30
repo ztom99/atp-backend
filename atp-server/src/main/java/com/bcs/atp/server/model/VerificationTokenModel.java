@@ -15,7 +15,7 @@ import java.util.Date;
  * 验证码表
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Builder

@@ -14,7 +14,7 @@ import java.io.Serializable;
  * 基础配置表 DTO
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Getter

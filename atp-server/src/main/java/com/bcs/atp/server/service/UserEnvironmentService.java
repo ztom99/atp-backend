@@ -13,7 +13,7 @@ import java.util.List;
  * 用户环境表 服务类
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 public interface UserEnvironmentService extends IService<UserEnvironmentModel> {

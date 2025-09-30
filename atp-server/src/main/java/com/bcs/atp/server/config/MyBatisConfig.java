@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * MyBatis配置类
  *
- * @author scott
+ * @author tom
  * @since 2024/03/21
  */
 @Configuration

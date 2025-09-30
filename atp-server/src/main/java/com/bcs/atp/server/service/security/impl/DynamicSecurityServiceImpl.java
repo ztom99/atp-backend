@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 动态权限相关业务类
  *
- * @author Scott
+ * @author tom
  * @since 2021年10月26日
  */
 @Component(value = "dynamicSecurityService")

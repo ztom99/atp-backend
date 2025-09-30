@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 /**
  * 授权管理
  *
- * @author scott
+ * @author tom
  * @since 2024/03/28
  */
 @RestController

@@ -11,7 +11,7 @@ import java.io.Serializable;
  * 团队集合表 分页查询对象
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Builder

@@ -2,7 +2,7 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
-  <changeSet author="scott" id="20240204001-1">
+  <changeSet author="tom" id="20240204001-1">
     <createTable tableName="account" remarks="账户表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="account_pkey"/>
@@ -33,13 +33,13 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-2">
+  <changeSet author="tom" id="20240204001-2">
     <createIndex indexName="account_provider_provider_account_id_key" tableName="account" unique="true">
       <column name="provider"/>
       <column name="provider_account_id"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-3">
+  <changeSet author="tom" id="20240204001-3">
     <createTable tableName="infra_config" remarks="基础配置表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="infra_config_pkey"/>
@@ -62,12 +62,12 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-4">
+  <changeSet author="tom" id="20240204001-4">
     <createIndex indexName="infra_config_name_key" tableName="infra_config" unique="true">
       <column name="name"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-5">
+  <changeSet author="tom" id="20240204001-5">
     <createTable tableName="invited_users" remarks="受邀用户表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="invited_users_pkey"/>
@@ -95,12 +95,12 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-6">
+  <changeSet author="tom" id="20240204001-6">
     <createIndex indexName="invited_users_invitee_email_key" tableName="invited_users" unique="true">
       <column name="invitee_email"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-7">
+  <changeSet author="tom" id="20240204001-7">
     <createTable tableName="shortcode" remarks="简码表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="shortcode_pkey"/>
@@ -121,13 +121,13 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-8">
+  <changeSet author="tom" id="20240204001-8">
     <createIndex indexName="shortcode_id_creator_uid_key" tableName="shortcode" unique="true">
       <column name="id"/>
       <column name="creator_uid"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-9">
+  <changeSet author="tom" id="20240204001-9">
     <createTable tableName="team" remarks="团队表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="team_pkey"/>
@@ -146,7 +146,7 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-10">
+  <changeSet author="tom" id="20240204001-10">
     <createTable tableName="team_collection" remarks="团队集合表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="team_collection_pkey"/>
@@ -173,7 +173,7 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-11">
+  <changeSet author="tom" id="20240204001-11">
     <createTable tableName="team_environment" remarks="团队环境表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="team_environment_pkey"/>
@@ -198,7 +198,7 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-12">
+  <changeSet author="tom" id="20240204001-12">
     <createTable tableName="team_invitation" remarks="团队邀请表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="team_invitation_pkey"/>
@@ -226,18 +226,18 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-13">
+  <changeSet author="tom" id="20240204001-13">
     <createIndex indexName="team_invitation_team_id_idx" tableName="team_invitation">
       <column name="team_id"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-14">
+  <changeSet author="tom" id="20240204001-14">
     <createIndex indexName="team_invitation_team_id_invitee_email_key" tableName="team_invitation" unique="true">
       <column name="team_id"/>
       <column name="invitee_email"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-15">
+  <changeSet author="tom" id="20240204001-15">
     <createTable tableName="team_member" remarks="团队成员表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="team_member_pkey"/>
@@ -262,13 +262,13 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-16">
+  <changeSet author="tom" id="20240204001-16">
     <createIndex indexName="team_member_team_id_user_id_key" tableName="team_member" unique="true">
       <column name="team_id"/>
       <column name="user_id"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-17">
+  <changeSet author="tom" id="20240204001-17">
     <createTable tableName="team_request" remarks="团队请求表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="team_request_pkey"/>
@@ -299,7 +299,7 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-18">
+  <changeSet author="tom" id="20240204001-18">
     <createTable tableName="user" remarks="用户表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="user_pkey"/>
@@ -332,12 +332,12 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-19">
+  <changeSet author="tom" id="20240204001-19">
     <createIndex indexName="user_email_key" tableName="user" unique="true">
       <column name="email"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-20">
+  <changeSet author="tom" id="20240204001-20">
     <createTable tableName="user_collection" remarks="用户集合表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="user_collection_pkey"/>
@@ -367,7 +367,7 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-21">
+  <changeSet author="tom" id="20240204001-21">
     <createTable tableName="user_environment" remarks="用户环境表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="user_environment_pkey"/>
@@ -393,7 +393,7 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-22">
+  <changeSet author="tom" id="20240204001-22">
     <createTable tableName="user_history" remarks="用户历史表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="user_history_pkey"/>
@@ -427,7 +427,7 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-23">
+  <changeSet author="tom" id="20240204001-23">
     <createTable tableName="user_request" remarks="用户请求表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="user_request_pkey"/>
@@ -461,7 +461,7 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-24">
+  <changeSet author="tom" id="20240204001-24">
     <createTable tableName="user_settings" remarks="用户设置表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="user_settings_pkey"/>
@@ -483,12 +483,12 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-25">
+  <changeSet author="tom" id="20240204001-25">
     <createIndex indexName="user_settings_user_id_key" tableName="user_settings" unique="true">
       <column name="user_id"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-26">
+  <changeSet author="tom" id="20240204001-26">
     <createTable tableName="verification_token" remarks="验证码表">
       <column name="id" type="varchar(36)" remarks="ID">
         <constraints nullable="false" primaryKey="true" primaryKeyName="verification_token_pkey"/>
@@ -516,12 +516,12 @@
       </column>
     </createTable>
   </changeSet>
-  <changeSet author="scott" id="20240204001-27">
+  <changeSet author="tom" id="20240204001-27">
     <createIndex indexName="verification_token_token_key" tableName="verification_token" unique="true">
       <column name="token"/>
     </createIndex>
   </changeSet>
-  <changeSet author="scott" id="20240204001-28">
+  <changeSet author="tom" id="20240204001-28">
     <createIndex indexName="verification_token_device_identifier_token_key" tableName="verification_token"
                  unique="true">
       <column name="device_identifier"/>

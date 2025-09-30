@@ -15,7 +15,7 @@ import java.util.Date;
  * 用户历史表 DTO
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Getter

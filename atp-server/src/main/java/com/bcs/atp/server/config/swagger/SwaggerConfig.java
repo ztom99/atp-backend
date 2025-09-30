@@ -8,7 +8,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * Swagger API文档相关配置
  *
- * @author scott
+ * @author tom
  * @since 2024/03/21
  */
 @Configuration
@@ -21,7 +21,7 @@ public class SwaggerConfig extends BaseSwaggerConfig {
       .apiBasePackage("com.soulcraft")
       .title("Swagger 接口文档")
       .description("Swagger 接口文档")
-      .contactName("Scott Lau")
+      .contactName("tom ")
       .version("1.0.0-SNAPSHOT")
       .enableSecurity(true)
       .build();

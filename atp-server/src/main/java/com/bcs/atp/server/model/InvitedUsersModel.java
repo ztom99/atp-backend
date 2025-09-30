@@ -15,7 +15,7 @@ import java.util.Date;
  * 受邀用户表
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 @Builder

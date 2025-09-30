@@ -12,7 +12,7 @@ import java.util.List;
  * 团队集合表 服务类
  * </p>
  *
- * @author Scott Lau
+ * @author tom 
  * @since 2024-03-21
  */
 public interface TeamCollectionService extends IService<TeamCollectionModel> {

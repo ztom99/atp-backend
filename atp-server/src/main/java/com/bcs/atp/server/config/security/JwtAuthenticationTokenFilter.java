@@ -23,7 +23,7 @@ import java.io.IOException;
 /**
  * JWT登录授权过滤器
  *
- * @author scott
+ * @author tom
  * @since 2024/03/28
  */
 @Slf4j

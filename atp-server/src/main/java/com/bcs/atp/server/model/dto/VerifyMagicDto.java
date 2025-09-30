@@ -8,7 +8,7 @@ import javax.validation.constraints.NotEmpty;
 /**
  * 用户登录认证参数
  *
- * @author Scott
+ * @author tom
  * @since 2024/03/19
  */
 @Builder

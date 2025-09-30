@@ -12,7 +12,7 @@ import javax.crypto.spec.SecretKeySpec;
 /**
  * 加解密工具类
  *
- * @author scott
+ * @author tom
  */
 @Log4j2
 @Component

@@ -6,7 +6,7 @@ import lombok.*;
 /**
  * Jwt令牌信息
  *
- * @author Scott
+ * @author tom
  * @since 2024/03/27
  */
 @Builder

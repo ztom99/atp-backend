@@ -17,7 +17,7 @@ import java.util.*;
 /**
  * 动态权限数据源，用于获取动态权限规则
  *
- * @author scott
+ * @author tom
  * @since 2024/03/29
  */
 @Component

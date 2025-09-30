@@ -34,7 +34,7 @@ import java.util.Date;
 /**
  * 授权管理服务
  *
- * @author scott
+ * @author tom
  * @since 2024/03/28
  */
 @Slf4j
