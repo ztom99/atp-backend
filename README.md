@@ -57,3 +57,6 @@ ATP is an automated testing platform designed to streamline and manage testing w
 1. Application configs: atp-server/src/main/resources/application-*.yml
 2. Database scripts: docker-scripts/atp/mysql/
 
+## Demo
+web: http://115.190.171.253:3000/
+admin: http://115.190.171.253:3100/
